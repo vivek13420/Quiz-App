@@ -1,0 +1,20 @@
+.option{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.option-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.selected-correct{
+    background-color: green;
+}
+
+.selected-incorrect{
+    background-color: red;
+}
